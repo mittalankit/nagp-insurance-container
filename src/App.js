@@ -1,13 +1,13 @@
 // src/App.js
 import React from 'react';
-import InsuranceDetails from './InsuranceDetails';
+import InsuranceSwitcher from "./components/InsuranceSwitcher";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Insurance App</h1>
-        <InsuranceDetails />
+        <h1>Insurance Container APP</h1>
+        <InsuranceSwitcher clickBtn={this.clickBtn}/>
       </header>
     </div>
   );
